@@ -10,6 +10,7 @@
 * API: MVC, WebApi or NancyFx
 * ORM: NHibernate or Entity Framework
 * Testing: xUnit or NUnit
+* Infrastructure: Dependency Injection
 
 If other tools are used, e.g. Windsor IoC container, please document the tools used, but try and stick to the .NET stack.
 
