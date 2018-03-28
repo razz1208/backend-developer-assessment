@@ -8,7 +8,7 @@ IF OBJECT_ID ('artist_detail', 'U') IS NOT NULL
 
 BEGIN
 CREATE TABLE artist_detail (
-artist_id int IDENTITY(1,1),
+artist_id int IDENTITY(1,1) NOT NULL,
 artist_name varchar(30),
 artist_identifier varchar(75),
 artist_country char(3),
